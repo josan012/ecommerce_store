@@ -30,7 +30,7 @@ const CartItem: React.FC<CartItemProps> = ({ data }) => {
                     className="object-cover object-center"
                 />
             </div>
-            <div className="relative ml-4 flex flex-1 flex-col justify-between">
+            <div className="relative ml-4 flex flex-1 flex-col justify-between sm:ml-6">
                 <div className="absolute z-10 right-0 top-0">
                     <IconButton onClick={onRemove} icon={<X size={15} />} />
                 </div>
